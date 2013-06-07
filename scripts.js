@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$("#items > li").find(".details").click(function(){
 		var items = $(this).parent();
 		var amount = $(this).parent().data("price")
-		var price = $('<p class="price">Price $'+amount+'</p>');
+		var price = $('<span class="price">Price $'+amount+'</span>');
 	    $(this).parent().append(price);
 	    $(this).remove();
 	});

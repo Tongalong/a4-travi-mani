@@ -62,9 +62,7 @@
 			
 
 			
-		 
-
-			#items > li {
+		    #items > li {
 				
 				font: 14px 'quicksand_book';
 				float:left;
@@ -103,16 +101,34 @@
 				font-color:white;
 			}
 			.price {
+				margin-top: 140px;
 				clear: both;
 				display: block;
 				text-align: center;
 				padding: 5px 0; 
-				font-weight: bold;
+				font: 20px 'quicksand_book';
+				
 				cursor: pointer;
 				background-color: #f5b303;
 				opacity: 0.6;
-				top-margin: 140px;
+				
 			}
+			#jeans {
+
+				background:url(images/apc.png) 0 0 no-repeat;
+			}
+			#shirt {
+
+				background:url(images/Paul_Smith.png) 0 0 no-repeat;
+            }
+            #shoe {
+
+				background:url(images/Paul_Smith.png) 0 0 no-repeat;
+            }
+            #tie {
+
+				background:url(images/tie.png) 0 0 no-repeat;
+            }
 
 		</style>
 	</head>
@@ -127,25 +143,25 @@
 			</ul>
             
             	<ul id="items" >
-				<li class="Bottoms" data-price="199.99">
+				<li id="jeans" class="Bottoms" data-price="199.99">
 					<h2>A.P.C Demin Jeans</h2> 
-					
+
 					<span class="details">INFO</span>
 				</li>	
 				
 
-				<li class="Tops" data-price="19.99">
-					<h2>H&M T-shirt</h2>
+				<li id="shirt" class="Tops" data-price="19.99">
+					<h2>Paul Smith Shirt</h2>
 					<span class="details">INFO</span>
 				</li>
 				
 
-				<li class="Accessories" data-price="299.99">
+				<li id="shoe" class="Accessories" data-price="299.99">
 					<h2>Cole Haan Shoes</h2>
 					<span class="details">INFO</span>
 				</li>
 			
-				<li class="Accessories" data-price="59.99">
+				<li id="tie" class="Accessories" data-price="59.99">
 					<h2>J.Crew Tie</h2>
 					<span class="details">INFO</span>
 				</li>
