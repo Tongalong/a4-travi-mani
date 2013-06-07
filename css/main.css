@@ -1,0 +1,195 @@
+@font-face{
+ font-family: 'otama-ep';
+ src: url('fonts/otama-ep-webfont.eot');
+ src: url('fonts/otama-ep-webfont.eot?iefix') format('eot'),
+ url('fonts/otama-ep-webfont.woff') format('woff'),
+ url('fonts/otama-ep-webfont.ttf') format('truetype'),
+ url('fonts/otama-ep-webfont.svg#otama-ep') 
+format('svg'); 
+ font-weight: normal;
+ font-style: normal;
+}
+
+body {
+	background:url(../images/bg1.gif);
+	font:13px verdana, arial, sans-serif;
+	color:#333;
+}
+
+h1 {
+	font:28px 'otama-ep', "Times New Roman", Times, serif;
+	color:#333;
+}
+
+h2 {
+	font:36px 'otama-ep', "Times New Roman", Times, serif;
+	color:#333;
+	text-shadow:5px 5px 5px grey;
+}
+
+h3 {
+	font:normal 22px georgia, "Times New Roman", Times, serif;
+	color:#333;
+	border-bottom: 1px solid #333;
+	margin:0; padding:0;
+}
+
+.intro {
+	font-weight:bold;
+	font-size:18px; line-height:24px;
+}
+
+.caption {
+	font-size: 11px;
+	color: #666;
+}
+
+table {
+	margin:10px 0; 
+	background:#FFF;
+}
+
+table th {
+  	color: #FFF;
+	background:#333;
+	padding: 4px 15px;
+}
+table td {
+	padding:4px 15px;
+}
+
+a {color:#333;}
+a:hover {color:#951a00;}
+
+form label {font-weight:bold;}
+
+/* Main container and header area 
+-----------------------------------------*/
+
+#container {
+	position:relative;
+	margin:10px auto 010px auto;
+	width:960px;
+	background:#FFF;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border:1px solid #CCC;
+}
+
+header {
+	float:left;
+	width:960px;
+	height:140px;
+}
+#logo {
+	position:absolute;
+	top:20px; left:20px;	
+	background:url(../images/drumbeat_logo.png);
+	width:300px; height:82px;
+	text-indent:-9999px;
+}
+
+header h1 {
+	position:absolute;
+	top:70px; left:100px;
+	z-index:2;	
+	
+}
+
+/* Top Navigation 
+-------------------------------*/
+nav {float:left; width:960px; }
+
+nav ul {
+	padding-left: 0;
+	margin-left: 0;
+	background-color: #CCC;
+	color: #333;
+	float: left;
+	width: 100%;
+}
+
+nav ul li { display: inline; }
+
+nav ul li a {
+	padding: 8px 30px;
+	background-color: #CCC;
+	color: #333;
+	text-decoration: none;
+	float: left;
+	border-right: 1px solid #fff;
+	text-transform:uppercase;
+}
+
+nav ul li a:hover, nav ul li a.active {
+	background-color: #333;
+	color: #fff;
+}
+
+
+/* Main Body area 
+-------------------------------*/
+#main {
+	float:left;
+	width:900px; 
+	margin:15px;
+	padding:10px 15px;
+	
+}
+
+section{
+	float:left;
+	width:600px;
+}
+article{
+	float:right;
+	width:250px;
+	padding: 20px 10px; margin-top:20px	;
+	background:#CCC;
+
+}
+
+
+
+
+
+/* Footer and social media links
+-------------------------------*/
+
+footer {
+	clear:both;
+	width:900px;
+	text-align:center;
+	padding:10px 15px;
+	color:#CCC;
+}
+
+aside{
+	position:absolute;
+	top:100px; right:50px;
+}
+
+aside ul {
+	position:relative;
+	width:100px; height:32px;
+	background:url(../images/socmed.png) top left no-repeat;
+	margin:0; padding:0;
+}
+aside li {
+	position: absolute;
+	margin: 0; padding: 0;
+	list-style: none;
+	top: 0;
+}
+aside a {
+	width:32px; height:32px;
+	display: block;
+	text-indent: -9999px;
+	text-decoration: none;
+	outline: 0;
+}
+#twitter	{left: 0px; }
+#facebook	{left: 33px; }
+#flickr 	{left: 66px; }
+
